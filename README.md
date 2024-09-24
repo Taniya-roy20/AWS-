@@ -76,6 +76,79 @@
 <br>
 <br>
 # Setting up PuTTY and the instance
+1.Go to the Instance dashboard, you"ll notice that that the instance is running and below a public IP address is visible,copy it. If you open the IPaddress in your Browser you"ll notice nothing loads because no server is installed on your Instance as of yet.
+<br>
+2.Now Open PuTTY, you'll notice a space titled "Host Name", Paste the IP address you copied.
+<br>
+3.On the left column,click "SSH",then click "Auth",and click on "Credentials"
+<br>
+4.Click "Browse" and select the key pair you downloaded and click "Open"
+<br>
+5.Click accept and in the username type "ubuntu" and press ENTER.
+<BR>
+<BR>
+# Using the command line interface
+1.In the command line run the following linux commands in the following order
+<br>
+ sudo su
+ <br>
+ apt update
+ <br>
+ It'll update the dependecies
+
+2.We need to install apache2 HTTP server, for that run the following command
+<br>
+apt install apache2
+<br>
+It'll starting install the apache2 server on your VM.
+<br>
+<br>
+3.If you go into your browser and search the IP you got earlier now you'll see this
+<br>
+<br>
+4.Now back on the PuTTY command line, run these commands
+
+/var/wwww/html/
+<br>
+rm index.html
+<br>
+vi index.html
+<br><br>
+5.Now you'll be in the edit window, Press I
+<br><br>
+6.Now you can edit the file, for this tutorial let us simply type "hi" using HTML format
+<br><br>
+7.Next to save the file, FIrst press Ctrl+C ( This will bring you out of the edit mode), then type :wq to exit the window
+<br><br>
+8. Now on the browser, the "hi" is displayed
+<br>
+Using this method you can connect it to your github too
+# Closing the Running Instance
+It is always recommended to close the running instance
+
+1.On the Instances dashboard, right click on the running instance and click on "Terminate Running instance"
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
 
 
 
