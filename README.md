@@ -43,12 +43,40 @@
 <BR>
 **STEP 2 SET THE INSTALLATION FOLDER**
 <BR>
+<br>
+1.Accept or adjust the installation folder.
+<br>
+2.Click next
+<br>
+<br>
+**STEP 3 INSTALL PUTTY** 
 <BR>
-1.Accept or adjust the installation folder
+<BR>
+1.Click install to proceed.
 <br>
-2.click next
+<br>
+**STEP 4 ACCEPT AUTHORIZATION TO MAKE CHANGES**
+<BR>
+<BR>
+1.A warning message will ask for an authorization for the installation application tomake changes in your computer.
+<br>
+2.Click YES so the installation can proceed.
 <br>
 <br>
+**STEP 5 INSTALLATION COMPLETED**
+<BR>
+<BR>
+1.After finising installation PuTTY will show you the final screen.
+<br>
+2.Check the tick box if you want to view the README file...
+<br>
+3...or keep it unchecked if you don't need to view it.
+<br>
+4.Click finish to close the dialog window.
+<br>
+<br>
+# Setting up PuTTY and the instance
+
 
 
 
