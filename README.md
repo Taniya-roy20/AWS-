@@ -77,13 +77,13 @@
 <br>
 # Setting up PuTTY and the instance
 1.Go to the Instance dashboard, you"ll notice that that the instance is running and below a public IP address is visible,copy it. If you open the IPaddress in your Browser you"ll notice nothing loads because no server is installed on your Instance as of yet.
-<br>
+<br><br>
 2.Now Open PuTTY, you'll notice a space titled "Host Name", Paste the IP address you copied.
-<br>
+<br><br>
 3.On the left column,click "SSH",then click "Auth",and click on "Credentials"
-<br>
+<br><br>
 4.Click "Browse" and select the key pair you downloaded and click "Open"
-<br>
+<br><br>
 5.Click accept and in the username type "ubuntu" and press ENTER.
 <BR>
 <BR>
