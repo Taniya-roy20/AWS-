@@ -27,9 +27,7 @@
 **INSTALLING PUTTY**
 <BR>
 <BR>
-Go to
-<br>
-["https://support.bontech.se/Guide/How%20to%20install%20PuTTY%20in%20Windows/35.html"]
+1.Go to https://www.putty.org/
 
 
 
