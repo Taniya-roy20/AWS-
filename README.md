@@ -89,16 +89,16 @@
 <BR>
 # Using the command line interface
 1.In the command line run the following linux commands in the following order
-<br>
- sudo su
- <br>
- apt update
+
+       sudo su
+
+       apt update
  <br>
  It'll update the dependecies
 
 2.We need to install apache2 HTTP server, for that run the following command
-<br>
-apt install apache2
+
+     apt install apache2
 <br>
 It'll starting install the apache2 server on your VM.
 <br>
@@ -108,11 +108,9 @@ It'll starting install the apache2 server on your VM.
 <br>
 4.Now back on the PuTTY command line, run these commands
 
-/var/wwww/html/
-<br>
-rm index.html
-<br>
-vi index.html
+      /var/wwww/html/
+       rm index.html
+       vi index.html
 <br><br>
 5.Now you'll be in the edit window, Press I
 <br><br>
